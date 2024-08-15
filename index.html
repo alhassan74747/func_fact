@@ -8,14 +8,14 @@
         body {
             font-family: Arial, sans-serif;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f4f4f4;
+            background-color: #e0e0e0; /* Background is gray */
             padding: 20px;
             text-align: center;
-            flex-direction: column;
         }
         .quote {
             font-size: 24px;
@@ -29,22 +29,33 @@
         }
         .hint {
             font-size: 16px;
-            color: #777;
+            color: #d9534f; /* Eye-catching color */
+            font-weight: bold; /* Bold for emphasis */
             max-width: 600px;
             padding: 10px;
-            background-color: #fff;
+            margin-top: 5px;
+            background-color: transparent;
+        }
+        .image-container {
+            margin-top: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-top: 5px;
         }
     </style>
 </head>
 <body>
     <div class="quote">
-        "If you think, dear, that no one loves you, just remember... I probably don’t either, but hey, at least I'm honest! 😅 (and)"
+        "If you think, dear, that no one loves you, just remember... I probably don’t either, but hey, at least I'm honest! 😅"
     </div>
     <div class="hint">
         PS: If you're on the hunt for the most brilliant, fascinating, and unbelievably talented person to ever grace this planet, let's connect! And who knows, maybe we'll find him together... eventually. 😄
+    </div>
+    <div class="image-container">
+        <img src="your-image-url.jpg" alt="A descriptive alt text">
     </div>
 </body>
 </html>
